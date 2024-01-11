@@ -1,0 +1,25 @@
+.breakcrum{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #5e5e5e;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 60px 130px; 
+  width: 85%; 
+  text-transform: capitalize;
+}
+@media (max-width:799px) {
+  .breakcrum{
+    font-weight: 500px;
+    flex-wrap: wrap;
+    margin: 40px 40px; 
+  }
+  
+}  
+@media (max-width:477px){
+  .breakcrum{
+    margin: 40px 50px; 
+  }
+
+}
